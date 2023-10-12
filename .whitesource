@@ -1,3 +1,9 @@
 {
-  "settingsInheritedFrom": "JoshRDemo/whitesource-config@main"
+  "settingsInheritedFrom": "JoshRDemo/whitesource-config@main",
+  "scanSettings": {
+    "configMode": "AUTO",
+    "configExternalURL": "",
+    "enableLicenseViolations": true,
+    "baseBranches": ["master", "feature/187"]
+  }
 }
