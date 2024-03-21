@@ -32,6 +32,7 @@ MongoClient.connect(db, (err, db) => {
         console.log("Error: DB: connect");
         console.log(err);
         process.exit(1);
+        console.log("test");
     }
     console.log(`Connected to the database`);
 
