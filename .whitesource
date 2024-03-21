@@ -1,6 +1,5 @@
 {
   "settingsInheritedFrom": "JoshRDemo/whitesource-config@main",
-  {
     "scanSettingsSAST": {
       "enableScan": true,
       "scanPullRequests": true,
@@ -10,5 +9,4 @@
       "checkRunConclusionLevel": "failure",
       "severityThreshold": "high"
     }
-  }
 }
