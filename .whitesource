@@ -1,12 +1,10 @@
 {
   "settingsInheritedFrom": "JoshRDemo/whitesource-config@main",
-    "scanSettingsSAST": {
-      "enableScan": true,
-      "scanPullRequests": true,
-      "incrementalScan": false
-    },
-    "checkRunSettingsSAST": {
-      "checkRunConclusionLevel": "failure",
-      "severityThreshold": "high"
-    }
+  "checkRunSettings": {
+    "vulnerableCheckRunConclusionLevel": "failure",
+    "displayMode": "diff",
+    "useMendCheckNames": true,
+    "strictMode": "failure",
+    "checkRunSettings.failOnVulnerabilityMinCvss": 9.0
+  }
 }
