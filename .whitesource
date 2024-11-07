@@ -1,5 +1,14 @@
 {
   "settingsInheritedFrom": "JoshRDemo/whitesource-config@main",
+  "scanSettings": {
+    "configMode": "AUTO",
+    "configExternalURL": "",
+    "enableLicenseViolations": true,
+    "baseBranches": ["develop"],
+    "exploitability": false,
+    "releaseBranches": ["v.*"],
+    "enableReachability": true
+  },
   "checkRunSettings": {
     "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff",
